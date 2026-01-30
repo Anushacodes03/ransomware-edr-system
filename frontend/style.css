@@ -1,0 +1,61 @@
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* main container */
+.container {
+    width: 85%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+/* title */
+h1 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* dashboard card */
+.card {
+    background: #020617;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+/* individual alert */
+.incident-item {
+    background: #020617;
+    border-left: 5px solid #ef4444;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    animation: glow 1.2s infinite alternate;
+}
+
+/* blinking alert effect */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 6px rgba(239, 68, 68, 0.4);
+    }
+    to {
+        box-shadow: 0 0 14px rgba(239, 68, 68, 0.9);
+    }
+}
+
+/* empty state text */
+#incidents p {
+    color: #94a3b8;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
