@@ -12,6 +12,16 @@ Traditional signature-based antivirus systems often fail to detect new or unknow
 
 This project addresses the problem by implementing behavior-based detection, which identifies malicious activity based on how ransomware behaves rather than how it looks.
 
+📚 Skills Gained
+
+• Endpoint threat detection concepts  
+• Behavioral malware analysis  
+• Shannon entropy implementation  
+• Python security scripting  
+• Flask REST API design  
+• SOC dashboard development  
+• Incident logging & response simulation  
+
 🎯 Objectives
 
 Monitor file system activity in real time
@@ -25,6 +35,16 @@ Log ransomware incidents for forensic analysis
 Provide centralized alert visualization
 
 Simulate automated incident response
+
+🧠 What This Project Demonstrates
+
+• Understanding of ransomware attack behavior  
+• Blue Team detection logic  
+• SOC-style alert visualization  
+• File system monitoring techniques  
+• Encryption detection using entropy  
+• Incident response workflow simulation  
+
 
 ⚙️ System Architecture
 File System Activity
@@ -128,5 +148,6 @@ It is a simulation-based EDR system and does not perform kernel-level enforcemen
 
 Anusha Upadhyay
 Cybersecurity Enthusiast | Blue Team | SOC Analyst Aspirant
+Passionate about defensive security, malware behavior analysis, and SOC operations.
 
 ⭐ If you found this project useful, feel free to star the repository.
