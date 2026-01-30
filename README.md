@@ -99,6 +99,7 @@ HTML, CSS, JavaScript
 REST APIs
 
 ▶️ How to Run the Project
+
 1️⃣ Start Backend API
 cd backend
 python app.py
